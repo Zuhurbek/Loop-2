@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+    <body>
+    <div class="phone">
+    <div class="phone__info">
+        <h2 class="phone__title">
+            CARD
+        </h2>
+        
+        <img class="phone__card" src="./img/card.png" alt="card img" width="300" height="195">
+    </div>
+    
+    <form action="https://echo.htmlacademy.ru/" class="phone__form">
+        <ul class="phone__list">
+            <li class="phone__item">
+                <img class="phone__icon" src="./img/lock.svg" alt="lock icon" width="30" height="25" >
+                
+                <div class="phone__item-info info">
+                    <h3 class="info__title">
+                        Lock card
+                    </h3>
+                    
+                    <p class="info__text">
+                        You can unlock it later
+                    </p>
+                </div>
+                
+                <input class="phone__input visually-hidden" type="checkbox" id="switch" >
+                
+                <label for="switch" class="phone__label">
+                    <span class="phone__span"></span>
+                </label>
+            </li>
+            
+            <li class="phone__item">
+                <img class="phone__icon" src="./img/plane.svg" alt="plane img" width="30" height="25" >
+                
+                <div class="phone__item-info info">
+                    <h3 class="info__title">
+                        Payments abroad
+                    </h3>
+                    
+                    <p class="info__text">
+                        Enable your card abroad
+                    </p>
+                </div>
+                
+                <input class="phone__input visually-hidden" type="checkbox" id="switch-2" checked>
+                
+                <label for="switch-2" class="phone__label">
+                    <span class="phone__span"></span>
+                </label>
+            </li>
+            
+            <li class="phone__item">
+                <img class="phone__icon" src="./img/laptop.svg" alt="laptop img" width="30" height="25" >
+                
+                <div class="phone__item-info info">
+                    <h3 class="info__title">
+                        Online payments
+                    </h3>
+                    
+                    <p class="info__text">
+                        Enable online transactions
+                    </p>
+                </div>
+                
+                <input class="phone__input visually-hidden" type="checkbox" id="switch-3" >
+                
+                <label for="switch-3" class="phone__label">
+                    <span class="phone__span"></span>
+                </label>
+            </li>
+            
+            <li class="phone__item">
+                <img class="phone__icon" src="./img/atm.svg" alt="lock img" width="30" height="25" >
+                
+                <div class="phone__item-info info">
+                    <h3 class="info__title">
+                        ATM withdrawals
+                    </h3>
+                    
+                    <p class="info__text">
+                        Enable ATM withdrawals
+                    </p>
+                </div>
+                
+                <input class="phone__input visually-hidden" type="checkbox" id="switch-4" >
+                
+                <label for="switch-4" class="phone__label">
+                    <span class="phone__span"></span>
+                </label>
+            </li>
+        </ul>
+    </form>
+    
+    
+</div>
+</body>
+</html>

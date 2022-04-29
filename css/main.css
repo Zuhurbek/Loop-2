@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: "Arial", "sans-serif";
+}
+img{
+  vertical-align: middle;
+  object-fit: cover;
+
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.phone {
+  width: 360px;
+  height: 665px;
+  margin: 20px auto;
+  padding: 10px;
+  padding-top: 60px;
+  background-image: url("../img/Phone.png");
+  background-size: 850px 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone__title {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+
+
+}
+.phone__card {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.phone__form {
+  width: 310px;
+  margin: 0 auto;
+}
+
+.phone__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.phone__item{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.phone__icon {
+  width: 30px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.phone__item-info {
+  margin-right: auto;
+  
+}
+
+.info__title {
+  margin: 0;
+
+}
+.info__text {
+  margin: 0;
+  color: rgb(165, 168, 167);
+}
+.phone__input:checked ~ .phone__label{
+  background-color: rgb(82, 136, 244);
+}
+
+.phone__input:checked ~ .phone__label > .phone__span{
+  transform: translateX(25px);
+}
+
+.phone__label {
+  display: inline-block;
+  width: 55px;
+  height: 30px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 30px;
+  padding: 1px;
+  transition: all 0.3s ease;
+}
+.phone__span {
+  display: inline-block;
+  padding: 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+
+}
